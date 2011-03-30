@@ -1,5 +1,17 @@
+Brand Browsing Ecommerce Extension
+author: Jeremy Shipman <jeremy [at] burnbright.co.nz>
+
 This module allows browsing by: manufacturer/brand
-It filters the product group pages to only show products from the selected 
+It filters the product group pages to only show products from the selected.
+
+
+Setup Instructions:
+Copy the ecommerce_brandbrowsing directory to your silverstripe site's directory.
+
+Add the brand control to your ProductGroup.ss template:
+<% include ProductGroupBrandControl %>
+
+Run mysite/dev/build?flush=all
 
 TODO:
  * Bulk loading - match against name
