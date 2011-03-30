@@ -14,5 +14,6 @@ Add the brand control to your ProductGroup.ss template:
 Run mysite/dev/build?flush=all
 
 TODO:
- * Bulk loading - match against name
  * Brand dropdown menu on product pages
+ * Only show brands with products in them
+ * Allow creating brands that don't exist
