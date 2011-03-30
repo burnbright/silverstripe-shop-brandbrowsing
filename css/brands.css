@@ -1,0 +1,14 @@
+div.brands{
+	margin-top:15px;
+}
+
+div.brand{
+	float:left;
+	text-align:center;
+	width: 25%;
+	height:150px;
+	overflow:hidden;
+}
+	div.brand img{
+		width:80%;
+	}

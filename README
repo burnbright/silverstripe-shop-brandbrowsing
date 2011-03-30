@@ -1,0 +1,6 @@
+This module allows browsing by: manufacturer/brand
+It filters the product group pages to only show products from the selected 
+
+TODO:
+ * Bulk loading - match against name
+ * Brand dropdown menu on product pages
